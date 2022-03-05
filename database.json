@@ -1,45 +1,190 @@
 {
-    "users": [
-        {"name": "Chelsea", "email": "chelsea@w.com", "birthday": "04-21-1994", "id": 1},
-        {"name": "Darrin", "email": "darrin@w.com", "birthday": "04-19-1994", "id": 2},
-        {"name": "Joshua", "email": "joshua@w.com", "birthday": "09-12-2008", "id": 3},
-        {"name": "Yuri", "email": "yuri@w.com", "birthday": "06-02-2012", "id": 4}
-    ],
-    "userFavorites" :[
-        {"userId": 1, "recipeId": 1, "id":1},
-        {"userId": 1, "recipeId": 2, "id":2},
-        {"userId": 1, "recipeId": 3, "id":3}
-    ],
-    "difficulties":[
-        {"level": "Easy", "id":1},
-        {"level": "Intermediate", "id":2},
-        {"level": "Difficult", "id":3},
-        {"level": "Professional", "id":4}
-    ],
-    "catagories": [
-        {"type":"Snack", "id": 1},
-        {"type":"Side Dish", "id": 2},
-        {"type":"Poultry", "id": 3},
-        {"type":"Seafood", "id": 4},
-        {"type":"Beef", "id": 5},
-        {"type":"Lamb", "id": 6},
-        {"type":"Breads", "id": 7}
-    ],
-    "recipes":[ 
-        {"title":"Mac and Cheese", "instructions": "boil water", "cookTime": "15 min", "difficultyId": 2, "categoryId": 1, "id": 1},
-        {"title":"Noodles", "instructions": "boil water", "cookTime": "10 min", "difficultyId": 1, "categoryId": 2, "id": 2},
-        {"title":"Toast", "instructions": "put bread in the toaster", "cookTime": "5 min", "difficultyId": 1, "categoryId": 7, "id": 3}
-    ],
-    "recipeIngredients": [
-        {"recipeId":1, "ingredientId":1, "id":1},
-        {"recipeId":2, "ingredientId":2, "id":2},
-        {"recipeId":3, "ingredientId":3, "id":3}
-    ],
-    "ingredients": [
-        {"measurement":["noodles, cheese, water"] , "id":1 },
-        {"measurement":["noodles, salt, water"] , "id":2 },
-        {"measurement":["bread"] , "id":3 }
-    ],
-    "notes":[]
-
+  "users": [
+    {
+      "name": "Chelsea",
+      "email": "chelsea@w.com",
+      "birthday": "04-21-1994",
+      "id": 1
+    },
+    {
+      "name": "Darrin",
+      "email": "darrin@w.com",
+      "birthday": "04-19-1994",
+      "id": 2
+    },
+    {
+      "name": "Joshua",
+      "email": "joshua@w.com",
+      "birthday": "09-12-2008",
+      "id": 3
+    },
+    {
+      "name": "Yuri",
+      "email": "yuri@w.com",
+      "birthday": "06-02-2012",
+      "id": 4
+    },
+    {
+      "name": "Milly Rock",
+      "birthday": "01-31-1999",
+      "email": "milly@r.com",
+      "id": 5
+    }
+  ],
+  "userFavorites": [
+    {
+      "userId": 1,
+      "recipeId": 1,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "recipeId": 2,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "recipeId": 3,
+      "id": 3
+    }
+  ],
+  "difficulties": [
+    {
+      "level": "Easy",
+      "id": 1
+    },
+    {
+      "level": "Intermediate",
+      "id": 2
+    },
+    {
+      "level": "Difficult",
+      "id": 3
+    },
+    {
+      "level": "Professional",
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "type": "Snack",
+      "id": 1
+    },
+    {
+      "type": "Side Dish",
+      "id": 2
+    },
+    {
+      "type": "Poultry",
+      "id": 3
+    },
+    {
+      "type": "Seafood",
+      "id": 4
+    },
+    {
+      "type": "Beef",
+      "id": 5
+    },
+    {
+      "type": "Lamb",
+      "id": 6
+    },
+    {
+      "type": "Breads",
+      "id": 7
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Mac and Cheese",
+      "instructions": "boil water",
+      "cookTime": "15 min",
+      "difficultyId": 2,
+      "categoryId": 1,
+      "id": 1
+    },
+    {
+      "title": "Noodles",
+      "instructions": "boil water",
+      "cookTime": "10 min",
+      "difficultyId": 1,
+      "categoryId": 2,
+      "id": 2
+    },
+    {
+      "title": "Toast",
+      "instructions": "put bread in the toaster",
+      "cookTime": "5 min",
+      "difficultyId": 1,
+      "categoryId": 7,
+      "id": 3
+    }
+  ],
+  "recipeIngredients": [
+    {
+      "recipeId": 1,
+      "ingredientId": 1,
+      "measurement": "1 cups",
+      "id": 1
+    },
+    {
+      "recipeId": 1,
+      "ingredientId": 2,
+      "measurement": "2 cups",
+      "id": 2
+    },
+    {
+      "recipeId": 1,
+      "ingredientId": 3,
+      "measurement": "2 cups",
+      "id": 3
+    },
+    {
+      "recipeId": 2,
+      "ingredientId": 1,
+      "measurement": "1 cups",
+      "id": 4
+    },
+    {
+      "recipeId": 2,
+      "ingredientId": 3,
+      "measurement": "1 cups",
+      "id": 5
+    },
+    {
+      "recipeId": 3,
+      "ingredientId": 6,
+      "measurement": "1 slice",
+      "id": 6
+    }
+  ],
+  "ingredients": [
+    {
+      "name": " noodles",
+      "id": 1
+    },
+    {
+      "name": "cheese",
+      "id": 2
+    },
+    {
+      "name": "water",
+      "id": 3
+    },
+    {
+      "name": "salt",
+      "id": 4
+    },
+    {
+      "name": "water",
+      "id": 5
+    },
+    {
+      "name": "bread",
+      "id": 6
+    }
+  ],
+  "notes": []
 }
