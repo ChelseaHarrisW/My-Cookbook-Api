@@ -120,70 +120,162 @@
       "difficultyId": 1,
       "categoryId": 7,
       "id": 3
+    },
+    {
+      "title": "yo",
+      "cookTime": "30",
+      "difficultyId": 1,
+      "categoryId": 1,
+      "id": 4
     }
   ],
   "recipeIngredients": [
     {
       "recipeId": 1,
       "ingredientId": 1,
-      "measurement": "1 cups",
       "id": 1
     },
     {
       "recipeId": 1,
       "ingredientId": 2,
-      "measurement": "2 cups",
       "id": 2
     },
     {
       "recipeId": 1,
       "ingredientId": 3,
-      "measurement": "2 cups",
       "id": 3
     },
     {
       "recipeId": 2,
       "ingredientId": 1,
-      "measurement": "1 cups",
       "id": 4
     },
     {
       "recipeId": 2,
       "ingredientId": 3,
-      "measurement": "1 cups",
       "id": 5
     },
     {
       "recipeId": 3,
       "ingredientId": 6,
-      "measurement": "1 slice",
       "id": 6
     }
   ],
   "ingredients": [
     {
       "name": " noodles",
+      "measurement": "1 cups",
       "id": 1
     },
     {
       "name": "cheese",
+      "measurement": "1 cups",
       "id": 2
     },
     {
       "name": "water",
+      "measurement": "2 cups",
       "id": 3
     },
     {
       "name": "salt",
+      "measurement": "2 tbs",
       "id": 4
     },
     {
-      "name": "water",
-      "id": 5
+      "name": "bread",
+      "measurement": "1 slice",
+      "id": 6
     },
     {
       "name": "bread",
-      "id": 6
+      "measurement": "1 slice",
+      "id": 7
+    },
+    {
+      "name": "cheese",
+      "measurement": "1cup",
+      "id": 8
+    },
+    {
+      "name": "cheese",
+      "measurement": "3cups",
+      "id": 9
+    },
+    {
+      "name": "cheese",
+      "measurement": "3cups",
+      "id": 10
+    },
+    {
+      "name": "hot sauce",
+      "measurement": "2 tbs",
+      "id": 11
+    },
+    {
+      "name": "tomato",
+      "measurement": "1 lb",
+      "id": 12
+    },
+    {
+      "name": "apple",
+      "measurement": "1 slice",
+      "id": 13
+    },
+    {
+      "name": "pear",
+      "measurement": "1",
+      "id": 14
+    },
+    {
+      "name": "pear",
+      "measurement": "1",
+      "id": 15
+    },
+    {
+      "name": "pear",
+      "measurement": "1",
+      "id": 16
+    },
+    {
+      "name": "pear",
+      "measurement": "1",
+      "id": 17
+    },
+    {
+      "name": "apple",
+      "measurement": "1",
+      "id": 18
+    },
+    {
+      "name": "chocolate",
+      "measurement": "1 cup",
+      "id": 19
+    },
+    {
+      "name": "bacon",
+      "measurement": "1 lb",
+      "id": 20
+    },
+    {
+      "name": "pear",
+      "measurement": "1",
+      "id": 21
+    },
+    {
+      "name": "apple",
+      "measurement": "1",
+      "id": 22
+    },
+    {
+      "name": "peach",
+      "measurement": "1",
+      "id": 23
+    },
+    {
+      "name": "cheddar",
+      "measurement": "1 cup",
+      "id": 24
     }
   ],
   "notes": []
