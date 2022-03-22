@@ -123,6 +123,14 @@
       "difficultyId": 1,
       "categoryId": 1,
       "id": 5
+    },
+    {
+      "title": "Pear Pie",
+      "cookTime": "1hr",
+      "instructions": "roll out pie dough, add chopped apples, bake",
+      "difficultyId": 2,
+      "categoryId": 1,
+      "id": 6
     }
   ],
   "recipeIngredients": [
@@ -185,6 +193,21 @@
       "recipeId": 5,
       "ingredientId": 4,
       "id": 18
+    },
+    {
+      "recipeId": 6,
+      "ingredientId": 11,
+      "id": 19
+    },
+    {
+      "recipeId": 6,
+      "ingredientId": 10,
+      "id": 20
+    },
+    {
+      "recipeId": 6,
+      "ingredientId": 12,
+      "id": 21
     }
   ],
   "ingredients": [
@@ -232,17 +255,28 @@
       "name": "pear",
       "measurement": "2",
       "id": 10
+    },
+    {
+      "name": "nutmeg",
+      "measurement": "2 teaspoons",
+      "id": 11
+    },
+    {
+      "name": "pie crust",
+      "measurement": "1 pack",
+      "id": 12
     }
   ],
   "notes": [
     {
-      "body": "This is my note",
+      "userId": 1,
+      "body": "add extra cheese",
       "recipeId": 1,
       "id": 1
     },
     {
-      "userId": null,
-      "body": "add chicken",
+      "userId": 1,
+      "body": "123",
       "recipeId": 1,
       "id": 2
     }
